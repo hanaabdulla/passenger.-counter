@@ -5,4 +5,5 @@ function increment() {
     var value = value.innerHTML;
    ++value;
     document.getElementById('number').innerHTML = value;
+    alert("button clicked")
 }
